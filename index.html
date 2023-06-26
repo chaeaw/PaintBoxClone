@@ -6,114 +6,142 @@
 </head>
 
 <body>
-  <header>
-    <div class="header--wrapper">
-      <h1><a href="#">logo</a></h1>
-      <nav>
-        <ul>
-          <li><a href="#">nail polish</a></li>
-          <li><a href="#">nail care</a></li>
-          <li><a href="#">nail art kits</a></li>
-          <li><a href="#">journal</a></li>
+  <header class="header">
+    <div class="header__wrapper">
+      <h1 class="header__logo"><a href="#" class="header__anchor">logo</a></h1>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-list-item"><a href="#" class="haeder__nav-list-link">nail polish</a></li>
+          <li class="header__nav-list-item"><a href="#" class="haeder__nav-list-link">nail care</a></li>
+          <li class="header__nav-list-item"><a href="#" class="haeder__nav-list-link">nail art kits</a></li>
+          <li class="header__nav-list-item"><a href="#" class="haeder__nav-list-link">journal</a></li>
         </ul>
       </nav>
-      <a href="#" class="book">book a manicure</a>
-      <div class="icon--wrapper">
-        <div class="search"></div>
-        <div class="bag">
+      <a href="#" class="header__button">book a manicure</a>
+      <div class="header__icons">
+        <div class="header__icons-item"></div>
+        <div class="header__icons-item">
           <span>0</span>
         </div>
       </div>
     </div>
   </header>
   <main>
-    <div class="main--wraaper">
-      <div class="visual">
-        <div class="visual--text">
-          <span>NEW: POLISH BUNDLES</span>
-          <p>Explore & save on new color theory trios—effortless summer accessories curated just for you.</p>
-          <a href="#">SHOP NOW</a>
+    <div class="main__wrapper">
+      <div class="main__section">
+        <div class="visual"></div>
+        <div class="visual__text">
+          <span class="visual__text-main">NEW: POLISH BUNDLES</span>
+          <p class="visual__text-sub">Explore & save on new color theory trios—effortless summer accessories curated
+            just for you.</p>
+          <a href="#" class="button visual__button">SHOP NOW</a>
         </div>
       </div>
-      <div class="products">
-        <div class="products--text">
-          <span>THE SHOP</span>
-          <p>Our Newest Polish Colors</p>
+      <div class="main__section">
+        <div class="products">
+          <div class="products__title section__title">
+            <span class="section__title-sub">THE SHOP</span>
+            <p class="section__title-main">Our Newest Polish Colors</p>
+          </div>
+          <ul class="products__list">
+            <li class="products__list-item">
+              <a href="#" class="">
+                <img src="https://via.placeholder.com/450x540" alt="polish img" class="products__list-image">
+                <div class="products__list-title">
+                  <span class="products__list-category">POWER COUPLE <b>| NEW!</b></span>
+                  <span class="products__list-name">Nail Lacquar Trio - Like Preppy</span>
+                </div>
+                <div class="products__list-button">
+                  <span class="products__list-price">$52.00</span>
+                  <span class="products__list-detail">VEIW DETAIL</span>
+                </div>
+              </a>
+              <button class="button products__button">ADD TO CART</button>
+            </li>
+          </ul>
         </div>
-        <ul>
-          <li>
-            <a href="#">
-              <img src="https://via.placeholder.com/450x540" alt="polish img">
-              <div class="product--title">
-                <span>POWER COUPLE <b>| NEW!</b></span>
-                <span>Nail Lacquar Trio - Like Preppy</span>
-              </div>
-              <div class="price">
-                <span>$52.00</span>
-                <span>VEIW DETAIL</span>
-              </div>
-            </a>
-            <button>ADD TO CART</button>
-          </li>
-        </ul>
       </div>
-      <div class="banners">
-        <ul>
-          <li>
-            <a href="#">
-              <img src="https://via.placeholder.com/1600x800" alt="">
-            </a>
-            <div class="banner">
-              <div class="banner--text">
-                <span>OUR STUIDO</span>
-                <p>Explore our Spring-Summer '23 Lookbook plus our new Best Sellers collection of the most iconic
-                  Paintbox designs of all time.</p>
-                <a href="#">BOOK A MANICURE</a>
+      <div class="main__section">
+        <div class="halves">
+          <ul class="halves__list">
+            <li class="halves__list-item">
+              <div class="halves__half">
+                <a href="#">
+                  <img src="https://via.placeholder.com/1600x800" alt="" class="halves__img">
+                </a>
               </div>
-            </div>
-          </li>
-        </ul>
+              <div class="halves__half">
+                <div class="halves__content">
+                  <span class="halves__category">OUR STUIDO</span>
+                  <p class="halves__title">Explore our Spring-Summer '23 Lookbook plus our new Best Sellers collection
+                    of the most iconic
+                    Paintbox designs of all time.</p>
+                  <a href="#" class="button">BOOK A MANICURE</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="pictures">
-        <ul>
-          <li><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="">
+      <div class="main__section">
+        <ul class="instagram">
+          <li class="instagram__item"><a href="#">
+              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
             </a></li>
-          <li><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="">
+          <li class="instagram__item"><a href="#">
+              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
             </a></li>
-          <li><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="">
+          <li class="instagram__item"><a href="#">
+              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
             </a></li>
-          <li><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="">
+          <li class="instagram__item"><a href="#">
+              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
             </a></li>
-          <li><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="">
+          <li class="instagram__item"><a href="#">
+              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
             </a></li>
-          <li><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="">
+          <li class="instagram__item"><a href="#">
+              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
             </a></li>
-          <li><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="">
+          <li class="instagram__item"><a href="#">
+              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
             </a></li>
-          <li><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="">
+          <li class="instagram__item"><a href="#">
+              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
             </a></li>
         </ul>
       </div>
     </div>
   </main>
-  <footer>
-    <div class="footer--wrapper">
-      <ul>
-        <li>
-          <span>SUPPORT</span>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <span class="footer__category">SUPPORT</span>
           <ul>
             <li><a href="#">F.A.Q.</a></li>
             <li><a href="#">PRIVACY POLICY</a></li>
             <li><a href="#">TERMS AND CONDITIONS</a></li>
             <li><a href="#">ACCESSIBILITY</a></li>
+          </ul>
+        </li>
+        <li class="footer__item">
+          <span class="footer__category">FOLLOW US</span>
+          <ul>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">PINTEREST</a></li>
+            <li><a href="#">FACEBOOK</a></li>
+            <li><a href="#">NEWSLETTER</a></li>
+          </ul>
+        </li>
+        <li class="footer__item">
+          <span class="footer__category">PAINTBOX</span>
+          <ul>
+            <li><a href="#">OUT STUDIO</a></li>
+            <li><a href="#">GIFT CARDS</a></li>
+            <li><a href="#">CAREERS</a></li>
+            <li><a href="#">PREES</a></li>
+            <li><a href="#">CONTACT US</a></li>
           </ul>
         </li>
       </ul>
