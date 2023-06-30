@@ -3,25 +3,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="dist/css/styles.css" />
   <title>(S)CSS Masterclass</title>
+
 </head>
 
 <body>
   <header class="header">
     <div class="header__wrapper">
-      <h1 class="header__logo"><a href="#" class="header__anchor">logo</a></h1>
+      <h1 class="header__logo"><a href="#">
+          <img src="https://via.placeholder.com/60x60" alt="logo" class="header__img">
+        </a></h1>
       <nav class="header__nav">
         <ul class="header__nav-list">
-          <li class="header__nav-list-item"><a href="#" class="haeder__nav-list-link">nail polish</a></li>
-          <li class="header__nav-list-item"><a href="#" class="haeder__nav-list-link">nail care</a></li>
-          <li class="header__nav-list-item"><a href="#" class="haeder__nav-list-link">nail art kits</a></li>
-          <li class="header__nav-list-item"><a href="#" class="haeder__nav-list-link">journal</a></li>
+          <li class="header__nav-list-item"><a href="#" class="header__nav-list-link">nail polish</a></li>
+          <li class="header__nav-list-item"><a href="#" class="header__nav-list-link">nail care</a></li>
+          <li class="header__nav-list-item"><a href="#" class="header__nav-list-link">nail art kits</a></li>
+          <li class="header__nav-list-item"><a href="#" class="header__nav-list-link">journal</a></li>
         </ul>
       </nav>
       <a href="#" class="header__button">book a manicure</a>
       <div class="header__icons">
-        <div class="header__icons-item"></div>
         <div class="header__icons-item">
-          <span>0</span>
+          <a href="#">
+            <ion-icon name="search-outline"></ion-icon>
+          </a>
+        </div>
+        <div class="header__icons-item">
+          <a href="#">
+            <ion-icon name="bag-outline"></ion-icon>
+            0
+          </a>
         </div>
       </div>
     </div>
@@ -29,12 +39,13 @@
   <main>
     <div class="main__wrapper">
       <div class="main__section">
-        <div class="visual"></div>
-        <div class="visual__text">
-          <span class="visual__text-main">NEW: POLISH BUNDLES</span>
-          <p class="visual__text-sub">Explore & save on new color theory trios—effortless summer accessories curated
-            just for you.</p>
-          <a href="#" class="button visual__button">SHOP NOW</a>
+        <div class="visual">
+          <div class="visual__text">
+            <span class="visual__text-sub section__title-sub">NEW: POLISH BUNDLES</span>
+            <p class="visual__text-main">Explore & save on new color theory trios—effortless summer accessories curated
+              just for you.</p>
+            <a href="#" class="button button-white visual__button">SHOP NOW</a>
+          </div>
         </div>
       </div>
       <div class="main__section">
@@ -46,7 +57,35 @@
           <ul class="products__list">
             <li class="products__list-item">
               <a href="#" class="">
-                <img src="https://via.placeholder.com/450x540" alt="polish img" class="products__list-image">
+                <img src="https://via.placeholder.com/420x540" alt="polish img" class="products__list-image">
+                <div class="products__list-title">
+                  <span class="products__list-category">POWER COUPLE <b>| NEW!</b></span>
+                  <span class="products__list-name">Nail Lacquar Trio - Like Preppy</span>
+                </div>
+                <div class="products__list-button">
+                  <span class="products__list-price">$52.00</span>
+                  <span class="products__list-detail">VEIW DETAIL</span>
+                </div>
+              </a>
+              <button class="button products__button">ADD TO CART</button>
+            </li>
+            <li class="products__list-item">
+              <a href="#" class="">
+                <img src="https://via.placeholder.com/420x540" alt="polish img" class="products__list-image">
+                <div class="products__list-title">
+                  <span class="products__list-category">POWER COUPLE <b>| NEW!</b></span>
+                  <span class="products__list-name">Nail Lacquar Trio - Like Preppy</span>
+                </div>
+                <div class="products__list-button">
+                  <span class="products__list-price">$52.00</span>
+                  <span class="products__list-detail">VEIW DETAIL</span>
+                </div>
+              </a>
+              <button class="button products__button">ADD TO CART</button>
+            </li>
+            <li class="products__list-item">
+              <a href="#" class="">
+                <img src="https://via.placeholder.com/420x540" alt="polish img" class="products__list-image">
                 <div class="products__list-title">
                   <span class="products__list-category">POWER COUPLE <b>| NEW!</b></span>
                   <span class="products__list-name">Nail Lacquar Trio - Like Preppy</span>
@@ -66,14 +105,46 @@
           <ul class="halves__list">
             <li class="halves__list-item">
               <div class="halves__half">
-                <a href="#">
-                  <img src="https://via.placeholder.com/1600x800" alt="" class="halves__img">
+                <a href="#" class="halves__img">
                 </a>
               </div>
               <div class="halves__half">
                 <div class="halves__content">
-                  <span class="halves__category">OUR STUIDO</span>
-                  <p class="halves__title">Explore our Spring-Summer '23 Lookbook plus our new Best Sellers collection
+                  <span class="halves__category section__title-sub">OUR STUIDO</span>
+                  <p class=" halves__title section__title-main">Explore our Spring-Summer '23 Lookbook plus our new
+                    Best Sellers collection
+                    of the most iconic
+                    Paintbox designs of all time.</p>
+                  <a href="#" class="button">BOOK A MANICURE</a>
+                </div>
+              </div>
+            </li>
+            <li class="halves__list-item">
+              <div class="halves__half">
+                <a href="#" class="halves__img">
+                </a>
+              </div>
+              <div class="halves__half">
+                <div class="halves__content">
+                  <span class="halves__category section__title-sub">OUR STUIDO</span>
+                  <p class=" halves__title section__title-main">Explore our Spring-Summer '23 Lookbook plus our new
+                    Best Sellers collection
+                    of the most iconic
+                    Paintbox designs of all time.</p>
+                  <a href="#" class="button">BOOK A MANICURE</a>
+                </div>
+              </div>
+            </li>
+            <li class="halves__list-item">
+              <div class="halves__half">
+                <a href="#" class="halves__img">
+                </a>
+              </div>
+              <div class="halves__half">
+                <div class="halves__content">
+                  <span class="halves__category section__title-sub">OUR STUIDO</span>
+                  <p class=" halves__title section__title-main">Explore our Spring-Summer '23 Lookbook plus our new
+                    Best Sellers collection
                     of the most iconic
                     Paintbox designs of all time.</p>
                   <a href="#" class="button">BOOK A MANICURE</a>
@@ -84,32 +155,66 @@
         </div>
       </div>
       <div class="main__section">
-        <ul class="instagram">
-          <li class="instagram__item"><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
-            </a></li>
-          <li class="instagram__item"><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
-            </a></li>
-          <li class="instagram__item"><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
-            </a></li>
-          <li class="instagram__item"><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
-            </a></li>
-          <li class="instagram__item"><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
-            </a></li>
-          <li class="instagram__item"><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
-            </a></li>
-          <li class="instagram__item"><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
-            </a></li>
-          <li class="instagram__item"><a href="#">
-              <img src="https://via.placeholder.com/400x400" alt="" class="intagram__img">
-            </a></li>
-        </ul>
+        <div class="newsletter">
+          <div class="section__title">
+            <span class="section__title-sub">join our conversation</span>
+            <p class="section__title-main">
+              Be the first to hear about new product launches and enjoy 20% off your first polish order.
+            </p>
+          </div>
+          <div class="newsletter__form">
+            <form action="#">
+              <input type="email" id="email" class="newsletter__form-email" placeholder="Enter your email">
+              <button type="submit" class="newsletter__form-submit">
+
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="main__section">
+        <div class="instagram">
+          <div class="instagram__item"><a href="#">
+              <div class="instagram__img">
+                <img src="https://source.unsplash.com/random" alt="" class="">
+              </div>
+            </a></div>
+          <div class="instagram__item"><a href="#">
+              <div class="instagram__img">
+                <img src="https://source.unsplash.com/random" alt="" class="">
+              </div>
+            </a></div>
+          <div class="instagram__item"><a href="#">
+              <div class="instagram__img">
+                <img src="https://source.unsplash.com/random" alt="" class="">
+              </div>
+            </a></div>
+          <div class="instagram__item"><a href="#">
+              <div class="instagram__img">
+                <img src="https://source.unsplash.com/random" alt="" class="">
+              </div>
+            </a></div>
+          <div class="instagram__item"><a href="#">
+              <div class="instagram__img">
+                <img src="https://source.unsplash.com/random" alt="" class="">
+              </div>
+            </a></div>
+          <div class="instagram__item"><a href="#">
+              <div class="instagram__img">
+                <img src="https://source.unsplash.com/random" alt="" class="">
+              </div>
+            </a></div>
+          <div class="instagram__item"><a href="#">
+              <div class="instagram__img">
+                <img src="https://source.unsplash.com/random" alt="" class="">
+              </div>
+            </a></div>
+          <div class="instagram__item"><a href="#">
+              <div class="instagram__img">
+                <img src="https://source.unsplash.com/random" alt="" class="">
+              </div>
+            </a></div>
+        </div>
       </div>
     </div>
   </main>
@@ -149,5 +254,7 @@
   </footer>
 
 </body>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 
 </html>
